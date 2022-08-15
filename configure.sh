@@ -17,3 +17,5 @@ echo "src-git PWluci https://github.com/xiaorouji/openwrt-passwall.git;luci" >> 
 # 替换默认主题
 rm -rf package/lean/luci-theme-argon 
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/lean/luci-theme-argon
+
+echo "src-git luci https://github.com/immortalwrt/luci.git;openwrt-21.02"  >> feeds.conf.default
